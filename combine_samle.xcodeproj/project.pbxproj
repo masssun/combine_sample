@@ -13,20 +13,20 @@
 		FF688E52290FF872005368D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF688E50290FF872005368D3 /* Main.storyboard */; };
 		FF688E54290FF874005368D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF688E53290FF874005368D3 /* Assets.xcassets */; };
 		FF688E57290FF874005368D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF688E55290FF874005368D3 /* LaunchScreen.storyboard */; };
-		FF688E62290FF874005368D3 /* combine_samleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF688E61290FF874005368D3 /* combine_samleTests.swift */; };
-		FF688E6C290FF874005368D3 /* combine_samleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF688E6B290FF874005368D3 /* combine_samleUITests.swift */; };
-		FF688E6E290FF874005368D3 /* combine_samleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF688E6D290FF874005368D3 /* combine_samleUITestsLaunchTests.swift */; };
+		FF688E7C29100237005368D3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF688E7A29100237005368D3 /* TableViewCell.swift */; };
+		FF688E7D29100237005368D3 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF688E7B29100237005368D3 /* TableViewCell.xib */; };
+		FF688E8029100520005368D3 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF688E7F29100520005368D3 /* NibLoadable.swift */; };
+		FF688E8229100742005368D3 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF688E8129100742005368D3 /* UITableView.swift */; };
+		FF688E84291007BA005368D3 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF688E83291007BA005368D3 /* UITableViewCell.swift */; };
+		FF688E8729100A3D005368D3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF688E8629100A3D005368D3 /* ViewModel.swift */; };
+		FF688E8A29100AD6005368D3 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF688E8929100AD6005368D3 /* APIClient.swift */; };
+		FF688E8C29100D3E005368D3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF688E8B29100D3E005368D3 /* API.swift */; };
+		FF688E8E2910D58A005368D3 /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF688E8D2910D58A005368D3 /* GitHubRepository.swift */; };
+		FFF3573C291135F4006C313E /* ViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF3573B291135F4006C313E /* ViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FF688E5E290FF874005368D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF688E3F290FF872005368D3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF688E46290FF872005368D3;
-			remoteInfo = combine_samle;
-		};
-		FF688E68290FF874005368D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FF688E3F290FF872005368D3 /* Project object */;
 			proxyType = 1;
@@ -45,10 +45,16 @@
 		FF688E56290FF874005368D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF688E58290FF874005368D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF688E5D290FF874005368D3 /* combine_samleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = combine_samleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF688E61290FF874005368D3 /* combine_samleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combine_samleTests.swift; sourceTree = "<group>"; };
-		FF688E67290FF874005368D3 /* combine_samleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = combine_samleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF688E6B290FF874005368D3 /* combine_samleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combine_samleUITests.swift; sourceTree = "<group>"; };
-		FF688E6D290FF874005368D3 /* combine_samleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combine_samleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF688E7A29100237005368D3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FF688E7B29100237005368D3 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		FF688E7F29100520005368D3 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		FF688E8129100742005368D3 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		FF688E83291007BA005368D3 /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		FF688E8629100A3D005368D3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FF688E8929100AD6005368D3 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		FF688E8B29100D3E005368D3 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FF688E8D2910D58A005368D3 /* GitHubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
+		FFF3573B291135F4006C313E /* ViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +72,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF688E64290FF874005368D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +80,6 @@
 			children = (
 				FF688E49290FF872005368D3 /* combine_samle */,
 				FF688E60290FF874005368D3 /* combine_samleTests */,
-				FF688E6A290FF874005368D3 /* combine_samleUITests */,
 				FF688E48290FF872005368D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +89,6 @@
 			children = (
 				FF688E47290FF872005368D3 /* combine_samle.app */,
 				FF688E5D290FF874005368D3 /* combine_samleTests.xctest */,
-				FF688E67290FF874005368D3 /* combine_samleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +96,14 @@
 		FF688E49290FF872005368D3 /* combine_samle */ = {
 			isa = PBXGroup;
 			children = (
+				FF688E53290FF874005368D3 /* Assets.xcassets */,
 				FF688E4A290FF872005368D3 /* AppDelegate.swift */,
 				FF688E4C290FF872005368D3 /* SceneDelegate.swift */,
-				FF688E4E290FF872005368D3 /* ViewController.swift */,
-				FF688E50290FF872005368D3 /* Main.storyboard */,
-				FF688E53290FF874005368D3 /* Assets.xcassets */,
 				FF688E55290FF874005368D3 /* LaunchScreen.storyboard */,
 				FF688E58290FF874005368D3 /* Info.plist */,
+				FF688E7E291004B7005368D3 /* Extension */,
+				FF688E8F29111918005368D3 /* Main */,
+				FF688E8829100AC7005368D3 /* Network */,
 			);
 			path = combine_samle;
 			sourceTree = "<group>";
@@ -113,18 +111,41 @@
 		FF688E60290FF874005368D3 /* combine_samleTests */ = {
 			isa = PBXGroup;
 			children = (
-				FF688E61290FF874005368D3 /* combine_samleTests.swift */,
+				FFF3573B291135F4006C313E /* ViewModelTest.swift */,
 			);
 			path = combine_samleTests;
 			sourceTree = "<group>";
 		};
-		FF688E6A290FF874005368D3 /* combine_samleUITests */ = {
+		FF688E7E291004B7005368D3 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				FF688E6B290FF874005368D3 /* combine_samleUITests.swift */,
-				FF688E6D290FF874005368D3 /* combine_samleUITestsLaunchTests.swift */,
+				FF688E7F29100520005368D3 /* NibLoadable.swift */,
+				FF688E8129100742005368D3 /* UITableView.swift */,
+				FF688E83291007BA005368D3 /* UITableViewCell.swift */,
 			);
-			path = combine_samleUITests;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FF688E8829100AC7005368D3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FF688E8929100AD6005368D3 /* APIClient.swift */,
+				FF688E8B29100D3E005368D3 /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FF688E8F29111918005368D3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FF688E50290FF872005368D3 /* Main.storyboard */,
+				FF688E7B29100237005368D3 /* TableViewCell.xib */,
+				FF688E8D2910D58A005368D3 /* GitHubRepository.swift */,
+				FF688E7A29100237005368D3 /* TableViewCell.swift */,
+				FF688E4E290FF872005368D3 /* ViewController.swift */,
+				FF688E8629100A3D005368D3 /* ViewModel.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +186,6 @@
 			productReference = FF688E5D290FF874005368D3 /* combine_samleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FF688E66290FF874005368D3 /* combine_samleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF688E77290FF874005368D3 /* Build configuration list for PBXNativeTarget "combine_samleUITests" */;
-			buildPhases = (
-				FF688E63290FF874005368D3 /* Sources */,
-				FF688E64290FF874005368D3 /* Frameworks */,
-				FF688E65290FF874005368D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF688E69290FF874005368D3 /* PBXTargetDependency */,
-			);
-			name = combine_samleUITests;
-			productName = combine_samleUITests;
-			productReference = FF688E67290FF874005368D3 /* combine_samleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +200,6 @@
 						CreatedOnToolsVersion = 14.0.1;
 					};
 					FF688E5C290FF874005368D3 = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = FF688E46290FF872005368D3;
-					};
-					FF688E66290FF874005368D3 = {
 						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = FF688E46290FF872005368D3;
 					};
@@ -221,7 +220,6 @@
 			targets = (
 				FF688E46290FF872005368D3 /* combine_samle */,
 				FF688E5C290FF874005368D3 /* combine_samleTests */,
-				FF688E66290FF874005368D3 /* combine_samleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,19 +230,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF688E57290FF874005368D3 /* LaunchScreen.storyboard in Resources */,
+				FF688E7D29100237005368D3 /* TableViewCell.xib in Resources */,
 				FF688E54290FF874005368D3 /* Assets.xcassets in Resources */,
 				FF688E52290FF872005368D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FF688E5B290FF874005368D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF688E65290FF874005368D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +250,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF688E8E2910D58A005368D3 /* GitHubRepository.swift in Sources */,
 				FF688E4F290FF872005368D3 /* ViewController.swift in Sources */,
+				FF688E7C29100237005368D3 /* TableViewCell.swift in Sources */,
 				FF688E4B290FF872005368D3 /* AppDelegate.swift in Sources */,
+				FF688E8029100520005368D3 /* NibLoadable.swift in Sources */,
 				FF688E4D290FF872005368D3 /* SceneDelegate.swift in Sources */,
+				FF688E84291007BA005368D3 /* UITableViewCell.swift in Sources */,
+				FF688E8729100A3D005368D3 /* ViewModel.swift in Sources */,
+				FF688E8229100742005368D3 /* UITableView.swift in Sources */,
+				FF688E8C29100D3E005368D3 /* API.swift in Sources */,
+				FF688E8A29100AD6005368D3 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF688E62290FF874005368D3 /* combine_samleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF688E63290FF874005368D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF688E6C290FF874005368D3 /* combine_samleUITests.swift in Sources */,
-				FF688E6E290FF874005368D3 /* combine_samleUITestsLaunchTests.swift in Sources */,
+				FFF3573C291135F4006C313E /* ViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +279,6 @@
 			isa = PBXTargetDependency;
 			target = FF688E46290FF872005368D3 /* combine_samle */;
 			targetProxy = FF688E5E290FF874005368D3 /* PBXContainerItemProxy */;
-		};
-		FF688E69290FF874005368D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FF688E46290FF872005368D3 /* combine_samle */;
-			targetProxy = FF688E68290FF874005368D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -526,42 +512,6 @@
 			};
 			name = Release;
 		};
-		FF688E78290FF874005368D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = US2S59QAJ6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.masssun.combine-samleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = combine_samle;
-			};
-			name = Debug;
-		};
-		FF688E79290FF874005368D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = US2S59QAJ6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.masssun.combine-samleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = combine_samle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +538,6 @@
 			buildConfigurations = (
 				FF688E75290FF874005368D3 /* Debug */,
 				FF688E76290FF874005368D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF688E77290FF874005368D3 /* Build configuration list for PBXNativeTarget "combine_samleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF688E78290FF874005368D3 /* Debug */,
-				FF688E79290FF874005368D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
